@@ -1,0 +1,39 @@
+{
+  "name": "node.js.csv.test",
+  "version": "1.0.0",
+  "description": "Используемые технологии: -\tES7 -\texpress.js -\tasync/await или Promises -\tMongoDB (3 или 4) - Mongoose -\tHtml 5\\CSS -\tОстальное по желанию",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch lib lib/index.js",
+    "build": "babel --watch src/ -d lib/",
+    "lint": "./node_modules/.bin/eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YozhikM/NODE.JS.CSV.TEST.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YozhikM/NODE.JS.CSV.TEST/issues"
+  },
+  "homepage": "https://github.com/YozhikM/NODE.JS.CSV.TEST#readme",
+  "dependencies": {
+    "csv-parse": "^4.3.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4"
+  }
+}
